@@ -17,7 +17,7 @@ with open('urhajos.txt' , "r" ,  encoding="utf-8" ) as forrasfajl:
             urhajos = Urhajos(adatok[0], adatok[1], adatok[2], int(adatok[3]), int(adatok[4]) )
             urhajosok.append(urhajos)
 
-#print(urhajosok)
+
 
 print(f"3.4. feladat: Az állományban {len(urhajosok)} űrhajós adatai találhatók.")
 
