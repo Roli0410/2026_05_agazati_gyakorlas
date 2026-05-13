@@ -46,8 +46,8 @@ for u in pilotak:
     if u.orszag == "spanyol":
         spanyolok += 1
         spanyol_pontszam += u.pontszam 
-    else:
-        print("Nincs spanyol versenyző.")
+
+
 
 atlag = spanyol_pontszam / spanyolok
 
