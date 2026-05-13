@@ -1,5 +1,4 @@
-import statistics
-
+print("3. feladat:")
 class Pilota():
     def __init__(self , nev , csapat , orszag , rajtszam , pontszam):
         self.nev = nev
